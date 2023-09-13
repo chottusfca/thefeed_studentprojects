@@ -29,10 +29,14 @@ header h3 {
 }
 
 main {
-    width: 500px; 
+    border: 1px darkblue solid;
+    width: 950px;
+    padding: 5px;  
     margin: auto; 
     display: flex; 
-    flex-direction: column;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    justify-content: space-around;
     
 }
 
