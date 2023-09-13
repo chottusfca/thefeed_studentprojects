@@ -1,0 +1,88 @@
+body{
+    margin:0;
+    background-color: #c6df90;
+    color: rgb(114, 75, 114);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+    background-color: rgb(166, 212, 117);
+}
+
+header img{
+    width: 300px;
+    align-content: center;
+}
+
+nav{
+    border: 15px rgb(166, 212, 117) solid;
+    padding: 10px;
+    text-align: left;
+    width: 20%;
+    position: fixed;
+    top: 20%;
+    left: 3%;
+    background-color: rgb(158, 200, 114)
+}
+
+nav h1:hover{
+    color: aqua;
+    text-decoration: underline;
+}
+
+main{
+    top: 80%;
+    margin: 5%;
+    margin-left: 30%;
+    padding-right: 24%;
+    text-align: center;
+    width: 100%;
+}
+
+footer{
+    background-color: rgb(166, 212, 117);
+    padding: 10px;
+    text-align: center;
+}
+
+footer h5{ 
+    width: 30%;
+    text-align: center;
+    margin:auto;
+}
+
+#layout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+a:hover{
+    color: rgb(247, 88, 154);
+}
+
+#homegif {
+    border: 15px transparent solid;
+    position: absolute;
+    top: 15%;
+    left: 26%;
+    width: 75;
+
+}
+
+#homegif:hover{
+    opacity: .5;
+}
+ 
+#maingif:hover{
+    opacity: .5;
+}
+
+#backtotop {
+    text-align: center;
+}

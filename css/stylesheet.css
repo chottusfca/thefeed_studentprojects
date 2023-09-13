@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+    margin: 0; 
+    margin: auto; 
+    max-width: 1200px;
+    background-color: azure;
+    font-family: 'VT323', monospace;
+    color: darkblue; 
+}
+
+header {
+    text-align: center;
+}
+
+ma

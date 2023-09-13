@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+
+header {
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(172, 230, 255, 0.508);
+    margin: 10px;
+    width: 15%;
+}
+
+nav p:hover{
+    color: tomato; 
+    text-decoration:underline;
+}
+
+
+main {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.487);
+    margin: 10px;
+    width: 85%;
+}
+
+footer {
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: tomato;
+ 
+}
+
+#layout {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#gif_bg {
+    background-color: black;
+    margin: 0;
+    text-align: center;
+}
+
+#title {
+    font-size: x-large;
+}
+
+#thefeed_bg {
+    margin: 0;
+    background-image: url(../img/bgimg.jpg);
+    color: rgb(33, 35, 105);
+    font-family: 'Righteous', cursive;
+}

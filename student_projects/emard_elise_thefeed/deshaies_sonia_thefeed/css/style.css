@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Rampart+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: rgb(255, 170, 201);
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(126, 198, 115);
+    border: 10px black solid;
+    padding: 5px;
+    margin: 20px;
+    font-family: 'Rampart One', cursive;
+}
+
+
+nav {
+    margin-top: 20px;
+    margin-bottom:20px;
+    margin-left: 20px;
+    width: 15%;
+    position: fixed;
+    background-color: rgb(254, 254, 179);
+    border-left: 5px rgb(0, 0, 0) solid;
+
+
+}
+
+main {
+    padding-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 100%;
+    border: 5px rgb(0, 0, 0) solid;
+    background-color: rgb(254, 254, 179);
+}
+
+footer {
+    background-color: rgb(126, 198, 115);
+    padding: 5px;
+    border: 10px black solid;
+    margin: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+
+nav h3:hover {
+    color: rgb(255, 170, 201);
+}
+
+nav h2:hover {
+    color: rgb(255, 170, 201);
+}
+
+footer h3:hover {
+    color: rgb(254, 254, 179);
+}
+
+a:hover {
+    color: rgb(255, 170, 201);
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#cream_bg {
+    background-color:rgb(251, 245, 232);
+    font-family: 'Rampart One', cursive;
+    font-size: xx-large;
+    color:black
+}
+
+#lightblue_bg {
+    background-color: rgb(255, 170, 201);
+}
+
+#homegif {
+    text-align: center;
+}
+
+#homegif:hover {
+    opacity: 80%;
+}
