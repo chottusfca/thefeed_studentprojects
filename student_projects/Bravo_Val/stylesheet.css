@@ -1,0 +1,42 @@
+body {
+    font-family: 'Ropa Sans', sans-serif;
+     text-align: center;
+    margin: 60px;
+    background-color: orange
+}
+
+h1 {
+    text-align: center;
+}
+
+
+nav {
+    text-align: center;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+nav a {
+    font-size: 20px;
+    color: mediumpurple;
+    text-transform: capitalize;
+    text-decoration: none;
+    margin: 60px;
+}
+
+p {
+    font-size: 19px;
+    text-align: center
+    margin: 100px;
+    padding: 90px;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+img {
+  border-radius: 20%;
+}
+
+font-family: 'Mansalva', cursive;

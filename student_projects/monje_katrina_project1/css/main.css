@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    background-image: url("../img/grid.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #000000;
+    background-attachment: fixed;
+    color: navajowhite;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+    padding: 20px;
+}
+
+header {
+    color: wheat;
+    padding: 130px,;
+    display: block;
+    margin: auto;
+}
+
+h2 {
+    color: lawngreen;
+}
+
+nav {
+    display: inline-flex;
+}
+
+a {
+    text-decoration: none;
+    padding: 40px;
+    font-size: 40px;
+    color: lawngreen;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.menu a {
+    font-size: 18px;
+}
+
+.music a {
+    font-size: 16px;
+    padding: 0px;
+}
+
+#start {
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+}
+
+.blinking {
+    animation: blinkingText 1.2s infinite;
+    padding:240px;
+}
+
+@keyframes blinkingText {
+    0% {
+        color: navajowhite;
+    }
+
+    49% {
+        color: navajowhite;
+    }
+
+    60% {
+        color: transparent;
+    }
+
+    99% {
+        color: transparent;
+    }
+
+    100% {
+        color: navajowhite;
+    }

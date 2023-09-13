@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/* font-family: 'Rock Salt', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Rock+Salt&display=swap');
+/* font-family: 'Gloria Hallelujah', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Permanent+Marker&family=Rock+Salt&display=swap');
+/* font-family: 'Gloria Hallelujah', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* font-family: 'Press Start 2P', cursive; */
+
+body {
+    background-color: white;
+    color: black;
+    text-align: left;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 22px;
+}
+
+header {
+    color: black;
+    font-family: 'Gloria Hallelujah', cursive;
+    text-align: left;
+    margin-left: 275px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+    padding: 0px;
+}
+
+img {
+    padding: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+}
+
+/*aside {
+    width: 200px;
+    padding: 20px;
+    float: right;*/
+}
+
+/* Introduction Page -- index.html-- */
+
+
+.landing_header {
+    font-family:
+}
+
+.intro_title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.intro_body {
+    margin-left: 250px;
+    margin-right: 250px;
+    font-family: 'Press Start 2P', cursive;
+    line-height: 40px;
+    text-align: justify;
+}
+
+/* Side navigation bar */
+.sidenav {
+    height: 100%;
+    width: 275px;
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+/* Main body text style */
+.main {
+    margin-left: 285px;
+    /* Same as the width of the sidebar */
+    margin-right: 100px;
+    padding: 20px;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    height: 800px;
+    width: 70%;
+    overflow-y: scroll;
+}
+
+.img_grid {
+    display: flex;
+    display: block;
+    margin: auto;
+    margin-left: 275px;
+    align-items: flex-start;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: black;
+    height: 800px;
+    width: 65%;
+    overflow-y: scroll;
+    padding: 20px; 
+}
+
+/*.img_grid img {
+    align-items: baseline;
+} */
+
+.video {
+    width: 350px;
+    height: 315px;
+    padding: 10px;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+

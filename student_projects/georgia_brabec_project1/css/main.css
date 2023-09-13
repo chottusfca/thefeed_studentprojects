@@ -1,0 +1,88 @@
+body {
+    background-color: #6c7492;
+}
+
+.main_pgs {
+    background-image: url(../img/opened_blinds_transparent.png);
+    margin: auto;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #6c7492;
+}
+
+header {
+    font-family: 'Courier Prime', monospace;
+    font-size: 30pt;
+    display: block;
+    text-align: center;
+    padding-top: 25px;
+    font-weight: bold;
+    color: #242021;
+}
+
+.eye {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+}
+
+nav {
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    background-color: #4F5359;
+}
+
+a {
+    padding: 50px;
+}
+
+a:link {
+    color: #f2f2f2
+}
+
+a:visited {
+    color: #aeb5bf;
+}
+
+a:hover {
+    color: #707326;
+}
+
+.landing_link {
+    padding: 0;
+}
+
+.centered {
+    display: block;
+    margin: auto;
+    height: 100vh;
+}
+
+p {
+    font-family: 'Courier Prime', monospace;
+    font-size: 12;
+    color: #f2f2f2;
+    padding-top: 235px;
+    padding-left: 375px;
+    padding-right: 375px;
+    line-height: 1.3;
+}
+
+h2 {
+    font-family: 'Courier Prime', monospace;
+    font-size: 18;
+    color: #242021;
+    padding-left: 315px;
+    text-decoration: underline;
+}
+
+div {
+    display: flex;
+    display: block;
+    text-align: center;
+}

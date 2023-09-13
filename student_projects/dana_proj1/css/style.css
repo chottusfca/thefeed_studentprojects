@@ -1,0 +1,663 @@
+@import url("https://use.typekit.net/hxb8fml.css");
+
+
+
+.intro p {
+    color: #eee;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 200px;
+    margin-bottom: 330px;
+    text-align: center;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+
+}
+
+
+
+
+.intro a {
+    text-decoration: none
+}
+
+
+
+/*-----------------nav------------------*/
+nav {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+nav a {
+    color: #13171A;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 20px;
+    font-family: nazare, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+
+}
+
+nav a:hover {
+    color: #FFA704;
+}
+
+.homebg {
+    background-image: url(../img/waves.gif);
+    background-size: cover;
+    background-color: #eee;
+
+}
+
+/*-----header-----*/
+header {
+    color: #FFA704;
+    text-align: center;
+    font-family: nazare, sans-serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.hm h1 {
+    color: #eee;
+}
+
+.hm a {
+    color: #eee;
+}
+
+
+
+.likep p {
+    color: #eee;
+    font-size: 30px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.stop {
+    margin-top: 90px;
+}
+
+
+img.mirror1 {
+
+    position: absolute;
+    z-index: -1;
+    margin-left: 1300px;
+    margin-top: 450px;
+
+}
+
+img.mirror2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 20px;
+    z-index: 1;
+    margin-left: 100px;
+    box-shadow: 5px 5px 12px #000080;
+}
+
+img.mirror3 {
+
+    position: absolute;
+    z-index: -1;
+    margin-top: 60px;
+    margin-left: 200px;
+}
+
+img.mirror4 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 170px;
+    margin-left: 550px;
+    box-shadow: 5px 5px 12px #000080;
+}
+
+img.mirror5 {
+    position: absolute;
+    z-index: -1;
+    margin-left: 470px;
+
+}
+
+img.mirror6 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 490px;
+    margin-left: 300px;
+    margin-top: 90px;
+    box-shadow: 5px 5px 12px #000080;
+}
+
+.wordplay {
+    color: #eee;
+    font-family: nazare, sans-serif;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+#cosmetics {
+    margin-left: 900px;
+    margin-right: 0px;
+    font-size: 35px;
+    margin-top: -50px;
+
+}
+
+#shopping {
+    margin-left: -200px;
+    margin-right: 0px;
+    font-size: 39px;
+}
+
+#shoes {
+    margin-left: -50px;
+    margin-top: -40px;
+    font-size: 27px;
+
+}
+
+#jewelry {
+    margin-left: -90px;
+    margin-top: 60px;
+    font-size: 27px;
+
+}
+
+#clothing {
+    margin-left: 960px;
+    margin-top: -180px;
+    font-size: 60px;
+
+}
+
+#beauty {
+    margin-right: 950px;
+    margin-top: -300px;
+    font-size: 39px;
+}
+
+#tattoos {
+    margin-right: 1191px;
+    font-size: 35px;
+}
+
+#dogs {
+    font-size: 80px;
+    margin-top: -90px;
+    margin-left: 497px;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 40px;
+}
+
+#videogames {
+    font-size: 60px;
+    margin-right: 1257px;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 40px;
+
+}
+
+#televisions {
+    font-size: 30px;
+    margin-right: 583px;
+
+}
+
+#interior {
+    font-size: 18px;
+    margin-right: 837px;
+}
+
+#technology {
+    font-size: 50px;
+    margin-left: 1084px;
+}
+
+#music {
+    font-size: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 40px;
+
+}
+
+#rhythm {
+    margin-right: 900px;
+    margin-top: -220px;
+
+}
+
+#parenting {
+    margin-top: -220px;
+    margin-left: 700px;
+}
+
+article {
+    margin-left: 700px;
+    margin-right: 700px;
+    font-size: 17px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+
+article > h3 {
+    font-family: canada-type-gibson, sans-serif;
+
+    font-weight: 700;
+
+    font-style: normal;
+}
+
+
+
+.chaos {
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-left: 300px;
+    position: sticky;
+    position: -webkit-sticky;
+
+}
+
+.videogames {
+    text-align: center;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #eee;
+    margin-top: 160px;
+    background-size: cover background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 125, 1) 31%, rgba(0, 0, 189, 1) 51%, rgba(0, 0, 255, 1) 100%);
+    width: 100%;
+    height: auto;
+
+}
+
+.videogames p {
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #eee;
+    margin-top: 160px;
+    margin-right: 180px;
+    margin-bottom: -2px;
+    position: sticky;
+    z-index: 5;
+    top: 300px;
+
+
+}
+
+#acnl {
+    height: 900px;
+    width: auto;
+    margin-right: 700px;
+    z-index: 1px;
+
+
+}
+
+#immortal {
+    color: #eee;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: -50px;
+    margin-right: 1300px;
+}
+
+#ovrw {
+    width: 700px;
+    height: auto;
+    margin-left: 800px;
+    margin-top: -500px;
+}
+
+.anime {
+    background-image: url(../img/akira.gif);
+    background-size: cover;
+    background-color: black;
+    text-align: center;
+    margin-top: -7px;
+    border-bottom: 80px;
+    border-color: black;
+}
+
+
+#bhna {
+    width: 400px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 10px;
+    margin-right: 500px;
+
+}
+
+#hai {
+    width: 400px;
+    height: auto position: absolute;
+    z-index: 3px;
+    margin-top: 300px;
+
+}
+
+#kon {
+    width: 400px;
+    height: auto;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 90px;
+
+}
+
+#madoka {
+    width: 300px;
+    height: auto;
+    margin-right: 800px;
+    margin-top: 60px;
+    z-index: 3;
+    position: absolute;
+
+
+}
+
+#lovestory {
+    width: 500px;
+    height: auto;
+    margin-top: 500px;
+    margin-right: 700px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 120px;
+
+}
+
+#nge {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    z-index: 3;
+    margin-top: 500px;
+    right: 100px;
+}
+
+.film {
+    background-color: black;
+    background-size: cover;
+    padding-top: 200px;
+}
+
+
+.film img {
+    width: 500px;
+    float: right;
+    padding-top: 10px;
+}
+
+#filmpara {
+    position: absolute;
+    z-index: 4;
+    text-align: right;
+    padding-top: 300px;
+    margin-top: -40px;
+    padding-bottom: 50px;
+    margin-left: 90px;
+    color: #eee;
+    font-size: 20px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.artists {
+    text-align: left;
+    background-color: black;
+    padding-top: 900px;
+}
+
+.artists img {
+    height: 400px;
+    padding: 10px;
+
+}
+
+.artists p {
+    position: absolute;
+    z-index: 4;
+    text-align: left;
+    color: #eee;
+    font-size: 20px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    left: 400px;
+    margin-top: -400px;
+}
+
+.end {
+    background-color: black;
+    background-size: cover;
+    margin-top: -30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.end p {
+    color: #eee;
+    font-size: 30px;
+    font-family: nazare, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+
+
+
+}
+
+#scroll{
+    float:right;
+    padding-right:100px;
+}
+
+#scroll1{
+    padding-top:200px
+}
+
+footer {
+    text-align: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 180px;
+    padding-bottom: 70px;
+}
+
+#footer2{
+    float: right;
+    text-align: center;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 300px;
+    padding-bottom: 70px;
+}
+
+.social-links a {
+    margin: 30px;
+}
+
+.social-links2 a{
+    margin:60px;
+}
+
+.social-links2 p{
+    color: #010;
+    font-size: 30px;
+    font-family: nazare, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    text-align: center;
+}
+
+.break {
+    margin: 50px;
+}
+
+#activitiesheader {
+    color: #010101;
+}
+
+
+.look p {
+    color: #010;
+    font-size: 85px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin: 40px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 50px;
+}
+
+.vl {
+    border-left: 2px solid #010;
+    height: 7400px;
+    position: absolute;
+    left: 50%;
+    margin-left: 50px;
+    top: 1300px;
+}
+
+#insta {
+    margin-top: 700px;
+    margin-left: 70px;
+}
+
+#instap {
+    float: right;
+    color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding-right: 600px;
+    padding-top: 2700px;
+
+}
+
+#bank {
+    float: right;
+    width: 500px;
+    padding-right: 250px;
+    margin-top: -1000px;
+    z-index: 2;
+}
+
+#bankp {
+    color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    right: 700px;
+
+}
+
+.tumblr {
+    margin-right: 900px;
+    margin-left: 70px;
+    margin-top: 200px;
+}
+
+.tumblr img {
+    width: 450px;
+
+
+}
+
+#tumblrp {
+    color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    position: absolute;
+    float: right;
+    padding-top: 340px;
+    padding-left: 720px;
+
+}
+
+#map{
+    float:right;
+    width:550px;
+    margin-right:80px;
+    margin-top: -600px;
+    
+}
+
+#mapp{
+    color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: right;
+    margin-right: 600px;
+}
+
+#twitterp {
+    
+    color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    float: left;
+    margin-top:200px;
+    margin-left: 700px;
+}
+
+.twitter {
+    text-align: left;
+    margin-right:1000px;
+    margin-left: 80px;
+}
+.twitter img{
+    width: 400px;
+    float: left;
+    padding:10px;
+}
+
+#endact {
+     color: #010;
+    font-size: 25px;
+    font-family: canada-type-gibson, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+}

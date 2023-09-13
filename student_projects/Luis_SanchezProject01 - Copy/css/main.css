@@ -1,0 +1,680 @@
+/* USED IN ALL PAGES ---------------------------------------*/
+
+nav {
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2vw;
+    padding: 3vw;
+}
+
+a.nav {
+    text-decoration: none;
+    padding: 1.5vw;
+    border-radius: 2vw;
+    margin: 1.4vw;
+}
+
+/*----------------------------------------------------------*/
+
+
+/* About Page ----------------------------------------------*/
+
+body.about {
+    background-color: black;
+}
+
+a.about {
+   color: white;
+    text-shadow: 0vw 0.05vw 0.1vw #95bedb;
+    background-image: linear-gradient(#8dcad6, #183a52);
+}
+
+
+h1.aboutTitle {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 4.8vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    text-shadow: 0.5vw 0.3vw 0.6vw #5053ba;
+    padding: 1vw;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 6%;
+}
+
+div.aboutSubtitle {
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding: 0.6vw;
+    margin-top: 1.5vw
+}
+
+img.nameGif { 
+    width: 75%;
+}
+
+div.aboutBlock {
+    width: 95%;
+    margin-top: 3vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    border: 0.75vw ridge darkgray;
+    background-color: #00023d;
+}
+
+div.gif {
+    width: 50%;
+    height: 45vw;
+    overflow: hidden;
+    background-color: black;
+    border: 1.2vw #00023d solid;
+    border-right: none;
+}
+
+img.siteGif {
+    padding: 1.3vw;
+    width: 100%;
+}
+
+div.bio {
+    width: 45%;
+    height: 44.2vw;
+    overflow: scroll;
+    border: 1.2vw black double;
+    background-color: #222347;
+}
+
+h3.bioText {
+    padding: 1.3vw;
+    font-family: Courier New;
+    font-size: 1.4vw;
+    color: lightblue;
+    text-shadow: 1px 2px 3px #00023d;
+}
+
+/*----------------------------------------------------------*/
+
+/* GENERAL ACTIVITY TAB ------------------------------------*/
+
+body.genAct {
+    background-color: #351052;
+}
+
+a.genAct{
+    color: white;
+    text-shadow: 0vw 0.05vw 0.1vw #95bedb;
+    background-image: linear-gradient(#c27ff5, #1e092e);
+}
+
+div.actBlock { 
+    display: inline-block;
+    border: 0.7vw ridge darkslateblue;
+    text-align: center;
+    background-color: #004166;
+    width: 45%;
+    height: 40vw;
+    overflow: scroll;
+}
+
+h2.actTitle {
+    font-family: "Arial Black";
+    font-size: 2vw;
+    font-style: oblique;
+    color: white;
+    text-align: center;
+    padding: 0.6vw;
+    text-shadow: 0.2vw 0.2vw 0vw darkblue;
+    background-color: cadetblue;
+    width: 85%;
+    margin: auto;border: 1vw groove darkslateblue;
+}
+
+div.bgDeco1 {
+    border-radius: 25px;
+    width: 95%;
+    margin: auto;
+    background-image: radial-gradient(aqua 5%, rgba(30, 4, 105, 45%) 40%, #004166 100%);
+}
+
+div.infoGroup {
+    width: 95%;
+    text-align: center;
+    margin: auto;
+}
+
+div.popularApps {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 2vw;
+    padding-top: 3vw;
+}
+
+div.useDescription {
+    display: inline-block;
+    width: 45%;
+    margin: auto;
+    font-size: 2vw;
+    padding: 0.5vw;
+    color: white;
+    background-color: #422866;
+    border-radius: 25px;
+}
+
+h1.descTitle{
+    text-align: center;
+    font-family: 'Roboto Condensed', 'Sans-Serif';
+    letter-spacing: 0.3em;
+    text-decoration: underline;
+}
+img.instagramData{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    border-radius: 25px;
+}
+
+div.instagramGallery {
+    display: block;
+    width: 95%;
+    height: 65vw;
+    margin: auto;
+    overflow: scroll;
+    border: 1vw black double;
+    background-color: #2a104f;
+}
+
+h1.rowTitles{
+    font-size: 2.4vw;
+    letter-spacing: 0.2em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    width: 100%;
+    margin: auto;
+    margin-top: 1.4vw;
+    padding: 1.4vw;
+    color: white;
+    background-color: #1c123d;
+}
+
+h3.rowSubtitles{
+    font-size: 1.2vw;
+    font-family: Courier New;
+    text-align: center;
+    font-style: oblique;
+    width: 75%;
+    margin: auto;
+    margin-top: 0.8vw;
+    color: white;
+    padding: 0.5vw;
+}
+
+div.galleryRow {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    padding: 1vw;
+    align-items: center;
+}
+
+div.galleryItem {
+    position: relative;
+    margin: 1vw;
+    width: 20vw;
+    height: 20vw;
+    border: 0.6vw groove #61408f;
+    background-image: linear-gradient(90deg, black, #3c0469, #756482, #a280bd, #a280bd, #756482, #3c0469, black);
+    overflow: hidden;
+}
+
+img.galleryImages{
+    display: block;
+    margin: auto;
+    height: 95%;
+    width: 95%;
+    object-fit: scale-down;
+}
+
+h3.imageDescription{
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-family: Verdana;
+    font-style: italic;
+    font-size: 0.8vw;
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    border: 0.2vw groove darkgray;
+    color: white;
+    background-color: black;
+}
+
+h1.genTitle{
+    font-family: Verdana;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #9443f0;
+    text-shadow: 0vw 0.2vw 0vw white;
+    background-color: #1e001f;
+    width: 70%;
+    margin: auto;
+    padding: 3vw;
+    border-radius: 25px;
+}
+
+img.stats1{
+    padding: 0.5vw;
+    max-width: 45%;
+}
+
+img.stats2{
+    display: inline-block;
+    padding 0.5vw;
+    max-width: 75%; 
+}
+
+h3.footnote1{
+    padding: 1.5vw;
+    font-size: 1vw;
+    font-family: "Arial Black", monospace;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 4px 10px darkblue;
+}
+
+/*----------------------------------------------------------*/
+
+/* FAVORITES TAB -------------------------------------------*/
+
+body.fav{
+    background-color: #58001d;
+}
+
+a.fav {
+   color: cyan;
+    text-shadow: 0vw 0.05vw 0.1vw #95bedb;
+    background-image: linear-gradient(#d1114f, #401523);
+}
+
+h1.blockTitles{
+    color: #00e35a;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    text-shadow: 0.3vw 0.5vw 0.3vw black;
+    padding-left: 5%;
+    margin-bottom: 1%;
+    text-decoration: underline;
+    font-size: 5vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h3.playlists{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: 1.7vw;
+    color: white;
+    font-family: 'Play', sans-serif;
+    font-style: oblique;
+    text-shadow: -0.6px 0.2vw 0.1vw #8c002e;
+    letter-spacing: 0.13em;
+    text-align: center;
+    padding-bottom: 2.2%;
+    border-bottom: 0.4vw solid #58001d;
+}
+
+div.SpotifyBlock{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-color: black;
+    border-bottom: 1.5vw double #8c002e;
+    border-top: 1.5vw double #8c002e;
+}
+
+img.SpotifyStats{
+    margin: auto;
+    max-width: 85%;
+    display: block;
+}
+
+div.scrollBlock{
+    display: inline-block;
+    height: 38vw;
+    width: 45%;
+    overflow: scroll;
+    border: 1vw groove #324b56;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+iframe.SpotifyLinks{
+    display: block;
+    margin: auto;
+    padding: 1vw;
+    width: 80%;
+    height: 28vw;
+}
+
+div.favGames{
+    width: 90%;
+    height: 40vw;
+    margin: auto;
+    overflow: scroll;
+    border: 1.5vw groove crimson;
+    background-image: url(../images/Videogames/SteamBG.PNG);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95% 95%;
+    background-color: black;
+}
+
+div.gameWall{
+    margin-top: 1vw;
+    position: relative;
+    height: 100vw;
+}
+
+h3.textOverlay{
+    font-family: 'Play', sans-serif;
+    position: absolute;
+    font-size: 3vw;
+    text-align: center;
+    padding: 1vw;
+    text-transform: uppercase;
+}
+
+div.ImageBG {
+    width: 75%;
+    height: 30%;
+    position: absolute;
+    left: 50%;
+    background-size: contain;
+    transform: translate(-50%, -50%);
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 0.25vw solid white;
+    background-color: rgba(220, 20, 60, 0.4);
+}
+
+div.TF2{
+    background-image: url("../images/Videogames/TF2Gameplay.gif");
+    top: 16%;
+}
+
+h3.TF2{
+    top: -8%;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen; 
+}
+
+h3.TF2Hours {
+    font-size: 1.5vw;
+    top: 20%;
+    left: 62%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+h3.TF2Achievements {
+    font-size: 1.4vw;
+    top: 39%;
+    left: 62%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+div.Terraria {
+    top: 48%;
+    background-image: url("../images/Videogames/Terraria.gif");
+}
+
+h3.Terraria{
+    top: -8%;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen; 
+}
+
+h3.TerrariaHours {
+    font-size: 1.5vw;
+    top: 20%;
+    left: 71%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+h3.TerrariaAchievements {
+    font-size: 1.4vw;
+    top: 39%;
+    left: 62%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+div.Isaac {
+    top: 80%;
+    background-image: url("../images/Videogames/isaac1.gif");
+}
+
+h3.Isaac{
+    font-size: 2.5vw;
+    top: 70%;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen; 
+}
+
+h3.IsaacHours {
+    font-size: 1.5vw;
+    top: 30%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+h3.IsaacAchievements {
+    font-size: 1.4vw;
+    top: 49%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+div.DarkestDungeon {
+    top: 112%;
+    background-image: url("../images/Videogames/DD1.gif");
+}
+
+h3.DD{
+    font-size: 2.5vw;
+    top: -5%;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen; 
+}
+
+h3.DDHours {
+    font-size: 1.5vw;
+    top: 60%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+h3.DDAchievements {
+    font-size: 1.4vw;
+    top: 79%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+div.Hades{
+    top: 144%;
+    background-image: url("../images/Videogames/Hades.gif");
+    margin-bottom: 3vw;
+}
+
+h3.Hades{
+    font-size: 4.5vw;
+    top: -5%;
+    left: 70%;
+    color: black;
+    background-color: white;
+    mix-blend-mode: screen; 
+}
+
+h3.HadesHours {
+    font-size: 1.5vw;
+    top: 40%;
+    left: 80%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+h3.HadesAchievements {
+    font-size: 1.4vw;
+    top: 59%;
+    left: 71%;
+    color: white;
+    background-color: crimson;
+    mix-blend-mode: screen;
+}
+
+
+
+h1.favTitle{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    font-size: 4vw;
+    color: #c9f8ff;
+    letter-spacing: 0.12em;
+    text-shadow: 0vw 0.3vw 0vw #f06c8c;
+    text-align: center;
+}
+
+h1.games{
+    font-size: 3.5vw;
+    text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    color: white;
+    text-shadow: 0vw 0.4vw 0.4vw black
+}
+
+img.twitchHomePage{
+    display: block;
+    margin-top: 10vw;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
+    border: 1.1vw black double;
+    border-radius: 30px;
+}
+
+h1.twitchTitle{
+    position: absolute;
+    top: -22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 8vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 0.6vw;
+    width: 40%;
+    text-align: center;
+    color: white;
+    background-color: rgba(138,43,226,0.5);
+    border-radius: 25px;
+}
+
+div.TwitchBlock {
+    display: block;
+    width: 90%;
+    margin: auto;
+    margin-top: 3vw;
+    border-radius: 45%;
+    border: 0.4vw crimson ridge;
+    background-color: rgba(138,43,226,0.35);
+    margin-bottom: 7vw;
+}
+
+div.TwitchDesc{
+    display: block;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.homePage {
+    position: relative;
+}
+
+h1.FavStreamers {
+    font-size: 4.7vw;
+    letter-spacing: 0.2em;
+    text-decoration: underline;
+    padding: 0.8vw;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    margin-top: 2vw;
+    color: white;
+    text-shadow: 0vw 0.35vw 0vw black;
+    background-color: rgba(138,43,226,0.5);
+    border-radius: 50%;
+    
+}
+
+h3.StreamerDesc {
+    font-size: 2vw;
+    font-family: Courier New;
+    padding: 4vw;
+    width: 78%;
+    color: white;
+    margin: auto;
+}
+
+div.StreamerBlock {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+
+img.StreamerThumbnail {
+    width: 80%;
+    padding: 1vw;
+    border-radius: 50%;
+    object-fit: scale-down;
+}
+
+a.twitchLink{
+    width: 15vw;
+    padding: 1vw;
+    margin: auto;
+}
+
+/*----------------------------------------------------------*/

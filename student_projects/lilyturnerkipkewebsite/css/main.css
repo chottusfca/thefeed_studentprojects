@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Caveat|Knewave|Modak&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic|Old+Standard+TT&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black|Lacquer|VT323&display=swap');
+
+/* 1. Change the background-color for the body to #FAC7AC*/
+
+body {
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Lacquer', sans-serif;
+    width: 1000px;
+    margin: auto;
+
+
+}
+
+/* 2. Change the text color for the body to a shade of violet.*/
+
+/* 3. Change all of the text to center align*/
+
+/* 4. Change the text color for the header to a shade of red.*/
+header h1 {
+    color: orangered;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 80px;
+    padding: 7px;
+    padding-left: opx;
+    line-height: 58px;
+    text-align: left;
+    letter-spacing: -9px;
+
+
+}
+
+.head {
+    background-color: white;
+    letter-spacing: 8px;
+    padding-left: 0px;
+}
+
+
+
+/* 4. Change the font to a serif font of your choice*/
+
+/* 5. Change the color of the anchor tags to the same shade of read as the header.*/
+nav a {
+    color: black;
+    text-decoration: none;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    text-align: right;
+}
+
+nav {
+    word-spacing: 30px;
+    padding: 20px;
+    padding-right: 0px;
+    color: black;
+    text-align: right;
+}
+
+/* 6. Get rid of underline on the the anchor tags */
+
+/* 7. Add padding of 20px to all sides of the anchor tags*/
+
+/* 8. Add padding of 40px to all sides of the img tags*/
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+img {}
+
+p {
+    text-align: left;
+    line-height: 100 px;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+    color: black;
+    letter-spacing: 2px;
+}
+
+strong {
+    font-size: 30px;
+    color: orangered;
+    font-family: 'Archivo Black', sans-serif;
+    text-align: center;
+}
+
+.instagram img {
+    float: left;
+    width: 100px;
+    margin: 35px;
+    margin-top: 300px;
+    width: 200px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.igtext p {
+    padding-left: 400px;
+    text-align: left;
+
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.depop img {
+    float: left;
+    width: 100px;
+    margin: 35px;
+    margin-top: 300px;
+    width: 200px;
+    padding: 50px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.depoptext p {
+    padding-left: 400px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.snap img {
+    float: left;
+    width: 100px;
+    margin: 35px;
+    margin-top: 300px;
+    width: 200px;
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.snapt p {
+    padding-left: 400px;
+    text-align: left;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.row img {
+    width: 400px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+
+
+}
+
+.row img {
+    margin: 40px;
+    margin-bottom: -200px;
+    width: 700px;
+
+}
+
+a:link {
+    text-decoration: none;
+    color: orangered;
+    padding: 10px;
+}
+
+nav a:hover {
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    background-color: black;
+    color: orangered;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:active {
+    text-decoration: none;
+    color: white;
+}
+
+
+.bio p {
+    text-align: left;
+    padding: 50px;
+    padding-top: 0px;
+    font-size: 30px;
+    line-height: 50px;
+
+}
+
+
+h2 {
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 25px;
+    padding-top: 100px;
+    padding-bottom: 0px;
+    letter-spacing: 3px;
+}
+
+ul {
+    text-align: left;
+    padding-left: 150px;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-family: 'Archivo Black', sans-serif;
+    color: orangered;
+    list-style-type: none;
+    line-height: 30px;
+}
+
+footer {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 30px;
+    color: orangered;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    word-spacing: 50px;
+    letter-spacing: 4px;
+
+}
+
+.container img {
+    background-color: orangered;
+
+}
+
+.container img:hover {
+    opacity: .5;
+}
+
+
+.description p {
+    text-align: center;
+    padding: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: white;
+    color: orangered;
+}
+
+.description2 p {
+    text-align: center;
+    padding: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 30px;
+    line-height: 50px;
+    background-color: white;
+    color: orangered;
+}
+
+.versace p {
+    text-align: center;
+    padding: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: white;
+    color: black;
+}
+
+.modernfamily p {
+    text-align: center;
+    padding: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: white;
+    color: black;
+
+}
+
+.sopranos p {
+    text-align: center;
+    padding: 45px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    font-size: 25px;
+    line-height: 50px;
+    background-color: white;
+    color: black;
+}

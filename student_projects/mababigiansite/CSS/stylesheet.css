@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed:300&display=swap');
+
+
+body {
+    background-color: #ffb3cc;
+
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+audio {
+    display: none;
+}
+
+header h1 {
+    padding-top: 10px;
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff1a1a;
+    text-decoration: underline
+}
+
+nav {
+    text-align: center;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+nav a {
+    padding: 0px;
+    padding-top: 0px;
+    margin: 10px;
+    margin-top: 10px;
+    font-family: 'Abril Fatface',
+        cursive;
+    text-decoration: none;
+    color: #ff1a1a;
+
+}
+
+.card:hover {
+    opacity: 0.3
+}
+
+h2 {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ff1a1a;
+}
+
+.column {
+    display: inline;
+    float: left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+
+
+
+article p {
+    font-family: 'Fira Sans Extra Condensed', sans-serif;
+}
+
+footer {
+    padding: 15px;
+    padding-top: 75px;
+
+
+}
+
+#footer {
+    font-size: 26px;
+    ;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#gif {
+    margin-left: 400;
+
+}
+
+#laptopgif {
+    width: 100px;
+    height: 100px;
+    align-items: center;
+
+}
+
+.datai {
+    padding: 20px;
+}
+
+.datai:hover {
+    opacity: 0.3
+}

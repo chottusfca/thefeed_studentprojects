@@ -1,0 +1,615 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+/*GENERAL*/
+* {
+    margin: 0;
+}
+
+html,
+body {
+    cursor: url("img/cursor/cursor.png"), default;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding-top: 75px;
+}
+
+::selection {
+    background-color: lime;
+    color: white;
+}
+
+
+/*HEADERS*/
+h1 {
+    font-family: 'Press Start 2P', monospace;
+    color: lime;
+    padding: 40px 40px 0px 40px
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Press Start 2P', monospace;
+    text-align: left;
+    color: lime;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    padding-left: 80px;
+}
+
+li,
+ul,
+ol {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 50;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: lime;
+    list-style: none;
+}
+
+
+/*BODY*/
+
+p,
+ul,
+ol {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15;
+    padding: 20px;
+    color: white;
+    line-height: 25px
+}
+
+a {
+    font-family: 'Press Start 2P', monospace;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white
+}
+
+a:hover {
+    cursor: url("img/cursor/hover.png") pointer;
+    background-color: lime;
+    color: white;
+    font-style: italic;
+}
+
+
+
+/* CODE CITATION:
+Title: How can I set specific CSS classes for links which are images?
+Link: https://stackoverflow.com/questions/2336596/how-can-i-set-specific-css-classes-for-links-which-are-images
+Author: Scott Cranfill
+Date Published: 2/25/10
+Date Accessed: 9/30/19 */
+
+a.imagelink:hover {
+    background-color: initial;
+    color: initial;
+    font-style: initial;
+}
+
+
+
+
+/* BODY.HTML */
+
+/* "can't touch this" */
+/* CODE CITATION:
+Title: How to disable text selection highlighting
+Link: https://stackoverflow.com/questions/826782/how-to-disable-text-selection-highlighting
+Author: community wiki
+Date Last Edited: 9/24/19
+Date Accessed: 9/30/19 */
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Opera and Firefox */
+}
+
+
+.body_select {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    justify-content: center;
+}
+
+
+.body_img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -300px;
+    margin-left: -350px;
+}
+
+.crosshair_bio {
+    height: 250px;
+    position: absolute;
+    top: -330px;
+    left: -445px;
+}
+
+.crosshair_likes {
+    height: 250px;
+    position: absolute;
+    top: -170px;
+    left: -60px;
+}
+
+.crosshair_activity {
+    height: 250px;
+    width: 250px;
+    position: absolute;
+    top: 80px;
+    left: -155px;
+}
+
+
+/*TABLES AND COLUMN CLASSES*/
+table,
+th,
+tr {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15;
+    padding: 20px;
+    color: white;
+    line-height: 25px;
+    margin-left: 60px;
+}
+
+th {
+    font-family: 'Press Start 2P', monospace;
+    text-align: left;
+    color: white;
+}
+
+
+/*LAYOUT*/
+header,
+nav {
+    padding: 20px;
+    background-color: black;
+    align-content: center;
+}
+
+nav {
+    padding-bottom: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom-style: ridge;
+    border-width: 3px;
+    border-color: lime;
+}
+
+/* Fixed Header from https://getflywheel.com/layout/create-sticky-website-header-how-to/*/
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    height: 90px;
+}
+
+article {
+    margin-top: 150px
+}
+
+footer {
+    align-content: center;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    bottom: 100;
+    left: 0;
+    text-align: center;
+}
+
+
+
+area:link,
+area:hover,
+area:active,
+area:focus {
+    border: 5px white solid;
+}
+
+
+
+
+/*HOME PAGE*/
+.intro {
+    display: inline;
+    text-align: right;
+    margin: auto;
+    overflow: auto;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    position: element(#article_img);
+    transform: translateX(-400px)
+}
+
+.intro p {
+    padding-left: 300px;
+}
+
+.main {
+    margin: auto;
+    padding: auto;
+    text-align: justify;
+    width: 1000px;
+}
+
+article img {
+    margin: 0px 400px 0px 0px;
+    padding: 20px 50px 50px 10px;
+    display: inline-block;
+    vertical-align: text-top;
+    position: absolute;
+}
+
+
+
+
+
+
+/*LIKES PAGE*/
+.clip-ellipse {
+    clip-path: circle(50% at 50% 50%);
+    vertical-align: middle;
+}
+
+/*tumblr blogs and text on page*/
+.tumblr_blogs {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 100px 20px 100px;
+    padding: 5px;
+}
+
+.blog {
+    text-align: left;
+    flex-grow: 0;
+    align-self: justify;
+    display: inline-block;
+    width: 400px;
+    border: dashed;
+    border-color: white;
+    border-radius: 25px;
+    margin: 10px 5px 10px 5px;
+}
+
+.section_header {
+    margin-left: 20px
+}
+
+.rbed_to {
+    text-align: left;
+    margin-left: 60px;
+    text-transform: lowercase;
+}
+
+
+
+/* CODE CITATION:
+Title: Blurred Text
+Link: https://css-tricks.com/fun-with-blurred-text/
+Author: Chris Coyier
+Date Published: 4/21/11
+Date Last Updated: 8/25/14
+Date Accessed: 9/30/19 */
+.blurred {
+    text-shadow: 0 0 5px lime;
+    color: transparent;
+}
+
+
+
+/*tumblr original posts*/
+.tumblr_og_post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+
+.op {
+    margin: 20px;
+    margin-left: 50px;
+    margin-right: 0px;
+    padding: 20px;
+    padding-left: 40px;
+    width: 600px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: white;
+    border: solid;
+    float: left;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.op_title {
+    font-family: 'Press Start 2P', monospace;
+    color: lime;
+    font-size: 15px;
+    padding-left: 0px;
+    text-align: left;
+}
+
+.op_body {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 13px;
+    color: white;
+    border-left: solid;
+    padding-left: 30px;
+}
+
+.op ul {
+    padding: 0;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    list-style: initial;
+}
+
+/*tumblr rbed posts*/
+.tumblr_rb_post {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin: 25px 100px 50px 100px;
+    padding: 25px 50px 25px 50px;
+    justify-content: left;
+    border: dashed;
+    border-color: lime;
+    max-height: 660px;
+}
+
+iframe {
+    flex-grow: 0;
+    align-self: top;
+}
+
+
+
+
+
+/*ACTIVITY PAGE*/
+/* general layout divs */
+.activity {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.digital-activity {
+    max-width: 1000px;
+}
+
+.life-activity {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* text */
+
+.youtube {
+    width: 900px;
+}
+
+.yt_vids {
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.search-history {
+    background: #1a1a1a;
+    border-style: solid;
+    width: 700px;
+    align-content: center;
+    margin-left: 60px;
+}
+
+.spotify {
+    width: 900px;
+    align-content: center;
+    margin-left: 60px;
+}
+
+.maps {
+    margin-left: 60px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: 820px;
+    width: 820px;
+    padding-left: 40px;
+}
+
+.first {
+    padding-left: 10px;
+    float: left;
+}
+
+.second {
+    padding-left: 20px;
+    float: right;
+}
+
+/*table classes*/
+.image_column {
+    width: 30px;
+    padding-right: 20px;
+    vertical-align: top;
+}
+
+.app_column {
+    width: 200px;
+    align-content: left;
+    padding-left: 40px;
+    vertical-align: top;
+}
+
+.name_column {
+    width: 70px;
+    align-content: left;
+    vertical-align: top;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.message_column {
+    width: 600px;
+    align-content: left;
+    padding-left: 0px;
+    vertical-align: top;
+}
+
+.hour_column {
+    width: 25px;
+    font-family: 'Press Start 2P', monospace;
+    text-align: left;
+    color: lime;
+    padding-left: 40px;
+}
+
+.health_column {
+    width: 300px;
+    align-content: left;
+    margin-left: 0px;
+}
+
+.time_column {
+    width: 25px;
+}
+
+
+
+
+
+/*ERROR PAGE*/
+.error {
+    background: 0, 0, 0, 0.9;
+    font-size: 50px;
+    padding: 50px;
+    margin: 50px;
+}
+
+.error h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    color: white;
+}
+
+.error p a {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*LOADING PAGE*/
+.loading {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 150px;
+    padding: 20px;
+    border-left: solid;
+    border-color: white;
+    border-width: thick;
+    text-align: left;
+}
+
+.loading h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+    color: lime;
+    text-align: left;
+
+    
+/* CODE CITATION:
+Title: Typing Animation
+Link: https://jsfiddle.net/vtdyuju4/2/
+Author: 
+Date Accessed: 9/30/19 */
+    
+    white-space: nowrap;
+    overflow: hidden;
+    -webkit-animation: type 2s steps(20, end);
+    animation: type 2s steps(20, end);
+    -o-animation: type 2s steps(20, end);
+    -moz-animation: type 2s steps(20, end);
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+@-moz-keyframes type {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 400px;
+    }
+}
+

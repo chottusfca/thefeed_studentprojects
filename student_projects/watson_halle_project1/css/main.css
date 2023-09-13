@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300&family=Pompiere&family=Rock+Salt&display=swap');
+
+body {
+    text-align: center;
+    background-image: url("../img/background3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Pompiere', cursive;
+}
+
+header {
+    font-size: 20pt;
+    font-family: 'Atma', cursive;
+}
+
+nav {
+    font-size: 18pt;
+}
+
+h2 {
+    font-size: 36pt;
+}
+
+h3 {
+    font-size: 40pt;
+}
+
+h4 {
+    font-size: 30pt;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: hotpink;
+}
+
+p {
+    font-size: 20px;
+    font-display: block;
+}
+
+.home-grid {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.youtubetape {
+    transform: rotate(1deg);
+}
+
+.youtubetape:hover{
+      background-color: lightpink;
+    opacity: 0.5;   
+}
+
+.instatape:hover{
+      background-color: lightpink;
+    opacity: 0.5;
+}
+
+.pintape:hover{
+      background-color: lightpink;
+    opacity: 0.5;
+}
+
+.instatape {
+    transform: rotate(-2deg);
+}
+
+.pintape {
+    transform: rotate(2deg);
+}
+
+.pic-one {
+    transform: rotate(3deg);
+}
+
+.pic-two {
+    transform: rotate(-3deg);
+}
+
+.pic-three {
+    transform: rotate(1deg);
+
+}
+
+.youtube {
+    display: flex;
+    margin: auto;
+      flex-wrap: wrap;
+    justify-content: center;
+}
+
+.instagram {
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.insta-one {
+    transform: rotate(2deg);
+}
+
+.insta-two {
+    transform: rotate(-3deg);
+}
+
+.insta-three {
+    transform: rotate(-3deg);
+}
+
+.insta-four {
+    transform: rotate(2deg);
+}
+
+.pinterest {
+  display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pin-one {
+    transform: rotate(-3deg);
+    margin: auto;
+}
+
+.pin-two {
+    transform: rotate(2deg);
+    margin: auto;
+}
+
+.activity {
+    display: flex;
+    margin: auto;
+      flex-wrap: wrap;
+    justify-content: center;
+}
+
+.act-one {
+    transform: rotate(2deg);
+}
+
+.act-two {
+    transform: rotate(-1deg);
+}
+
+.act-three {
+    transform: rotate(1deg);
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+.pic-one:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.pic-two:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.pic-three:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.insta-one:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.insta-two:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.insta-three:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.insta-four:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.pin-one:hover {
+    background-color: lightpink;
+    opacity: 0.5;
+}
+
+.pin-two:hover {
+    background-color: lightpink;
+    opacity: 0.5; 
+}
+
+.nav{
+   display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.home_link:hover {
+    background-color: aliceblue;
+    opacity: 0.7;  
+}
+
+.home_link2:hover {
+    background-color: aliceblue;
+    opacity: 0.7;    
+}
+
+.like_link:hover {
+    background-color: aliceblue;
+    opacity: 0.7;    
+}
+
+.activity_link:hover{
+    background-color: aliceblue;
+    opacity: 0.7;    
+}
+

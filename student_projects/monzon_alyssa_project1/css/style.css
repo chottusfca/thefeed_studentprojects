@@ -1,0 +1,187 @@
+body {
+    background-color: #E0D0BA;
+    font-family: "Helvetica";
+    color: white;
+}
+
+h1 {
+    font-size: 40pt;
+    text-align: center;
+    color: #824F41;
+}
+
+h2 {
+    text-align: left;
+    color: #594939;
+}
+
+h3 {
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: white;
+}
+
+nav {
+    font-family: "Helvetica";
+}
+
+a,
+nav {
+    text-justify: none;
+    text-align: center;
+    color: black;
+}
+
+a:link {
+    background-color: none;
+    text-decoration: none;
+    color: #824F41;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    background color: aliceblue;
+    text-decoration: none;
+    color: #F2B90F;
+}
+
+.sansserif {
+    font-family: "Helvetica";
+}
+
+ul {
+    display: inline-block;
+    color: #594939;
+    padding-left: 50px;
+}
+
+.logos a {
+    text-align: center;
+    padding-left: 30px;
+}
+
+.profile {
+    display: block;
+    display: flex;
+    margin: auto;
+    padding-left: 100px;
+}
+
+.ig {
+    display: inline-block;
+    padding-left: 430px;
+}
+
+.pages {
+    font-size: 20pt;
+    text-align: center;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.igprofile {
+    text-align: center;
+    padding: 50px;
+}
+
+.igprofile2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.igprofile3 {
+    text-align: center;
+    padding: 25px;
+}
+
+.igprofile4 {
+    text-align: center;
+    padding: 25px;
+}
+
+.igprofile5 {
+    text-align: center;
+    padding: 25px;
+}
+
+.net1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.net2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.knew {
+    text-align: center;
+    padding: 25px;
+}
+
+.knew2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.knew3 {
+    text-align: center;
+    padding: 25px;
+}
+
+.g1 {
+    text-align: center;
+    padding: 25px;
+}
+
+.g2 {
+    text-align: center;
+    padding: 25px;
+}
+
+.g3 {
+    text-align: center;
+    padding: 25px;
+}
+
+.ttyl {
+    text-align: center;
+    padding: 10px;
+}
+
+.ttyl {
+    text-align: center;
+    padding: 10px;
+}
+
+.info1 {
+    display: inline-block;
+    text-align: center;
+    padding-left: 245px;
+}
+
+.info2 {
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+}
+
+.header {
+    font-size: 20pt;
+    padding-top: 10px;
+}
+
+.beemo {
+    padding-bottom: 100px;
+    padding-left: 40px;
+}
+
+.bemo {
+    text-align: center;
+    padding-top: 10px;
+}

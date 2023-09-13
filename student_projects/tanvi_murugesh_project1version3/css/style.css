@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+body {
+    font-family: monospace;
+    background-size: 100%;
+    background-image: url("../img/grid.png");
+    background-size: 250px;
+    overflow-y: scroll;
+}
+
+/* ------------WELCOME INDEX PAGE------------ */
+.welcome {
+    background-image: url("../img/indexbg.gif");
+    background-size: 100%;
+
+
+}
+
+/* Submit form code refrenced from 
+Title: HTML Forms
+Author: w3schools     
+Availability:https://www.w3schools.com/html/html_forms.asp
+*/
+.welcome form {
+    text-align: center;
+    margin-top: 25%;
+    color: white;
+    font-size: 20px;
+
+}
+
+.welcome input {
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+
+.welcome input:hover {
+    background: #BEB9F3;
+    color: white;
+}
+
+/* ------------HEADER STYLE (TOP LINKS)------------ */
+header {
+    width: 100%;
+    background-color: #BEB9F3;
+    border-color: #6b40c4;
+    border-style: solid;
+    border-width: 0px 0px 2px 0px;
+}
+
+header a {
+    text-align: left;
+    display: inline;
+    margin: 40px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    color: #6b40c4;
+    text-decoration: none;
+    transition-duration: 0.3s;
+
+}
+
+header a:hover {
+    background: #6b40c4;
+    color: white;
+
+}
+
+
+header > a {
+    margin-left: 20px;
+}
+
+/* ------------NAVIGATION (BOTTOM ICON LINKS)------------ 
+ Title: How TO - Bottom Navigation
+Author: w3schools     
+Availability:https://www.w3schools.com/howto/howto_css_bottom_nav.asp
+*/
+nav {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 65%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+nav img {
+    width: 100px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition-duration: 0.3s;
+
+
+}
+
+nav img:hover {
+    cursor: pointer;
+    background: #BEB9F3;
+
+}
+
+nav p {
+    text-align: center
+}
+
+
+/* ------------PLAYBACK STYLE------------ */
+.music-player {
+    position: fixed;
+    bottom: 8%;
+    right: 50px;
+    width: 325px;
+    height: auto;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6b40c4;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px #6b40c4;
+
+}
+
+.music-player h1 {
+    text-align: left;
+    padding: 0px 0px 0px 3px;
+    margin: 0px;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #6b40c4;
+    background-color: #BEB9F3;
+    font-family: monospace;
+    border-bottom: 3px solid #6b40c4;
+
+    border-radius: 9px 9px 0px 0px;
+
+
+}
+
+.music-player h2 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 4px double #6b40c4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #6b40c4;
+}
+
+.music-player p {
+    text-align: center;
+}
+
+/* ------------MAIN CONTENT------------ */
+article {
+    margin-top: 3%;
+    margin-left: 3%;
+    width: 65%;
+    height: 65%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6b40c4;
+    overflow-y: auto;
+    overflow-x: hidden;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px #6b40c4;
+    position: absolute;
+    z-index: -1;
+
+
+}
+
+
+article h1 {
+    text-align: left;
+    top: 0;
+    padding: 0px 0px 0px 3px;
+    margin: 0px;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #6b40c4;
+    background-color: #BEB9F3;
+    font-family: monospace;
+    border-bottom: 3px solid #6b40c4;
+    /* information on sticky positioning found on https://developer.mozilla.org/en-US/docs/Web/CSS/position */
+    position: sticky;
+
+
+
+}
+
+article h2 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 4px double #6b40c4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #6b40c4;
+
+
+}
+
+
+article p {
+    margin-left: 70px;
+    padding-right: 70px;
+    line-height: 25px;
+    overflow-x: hidden;
+}
+
+article img {
+    height: 250px;
+}
+
+iframe {
+    width: 100%;
+    height: 550px;
+}
+
+.video {
+    height: 250px;
+    width: 350px;
+    border: 0px;
+}
+
+/* ------------ASIDE (WELCOME GIF)------------ */
+aside {
+    position: fixed;
+    margin-top: 6%;
+    right: 50px;
+    width: 325px;
+    height: 50%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #6b40c4;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 6px 6px #6b40c4;
+    overflow-x: hidden;
+
+}
+
+aside h1 {
+    text-align: left;
+    padding: 0px 0px 0px 3px;
+    margin: 0px;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    color: #6b40c4;
+    background-color: #BEB9F3;
+    font-family: monospace;
+    border-bottom: 3px solid #6b40c4;
+
+}
+
+aside h2 {
+    text-align: center;
+    margin: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    width: 100%;
+    font-size: 17px;
+    border-bottom: 4px double #6b40c4;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+    color: #6b40c4;
+}
+
+aside p {
+    margin: 20px;
+    text-align: center;
+}
+
+#logogif {
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ------------MISC. SPECIAL STYLES------------ */
+#twittermock {
+    text-align: center
+}
+
+#twitterimage {
+    width: 80%;
+    height: 100%;
+}
+
+#speedpaintbox {
+    text-align: center
+}
+
+#speedpaint {
+    width: 100%;
+}
+
+#messagemock {
+    text-align: center;
+}
+
+#messagesimage {
+    width: 60%;
+    height: 100%;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Grenze+Gotisch&display=swap');
+
+body {
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    color: #9A5DE1;
+    text-align: center;
+    font-family: 'Grenze+Gotish', cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5
+}
+
+header {
+    color: #5334F7;
+}
+
+a {
+    padding: 20px;
+    text-decoration: none;
+    color: #FC3FB4;
+}
+
+img {
+    padding: 20px
+}
+
+a:hover

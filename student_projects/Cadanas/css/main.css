@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Changa|Nanum+Gothic:700&display=swap');
+
+/*FULL PAGE STYLES*/
+
+body{
+    background-color: #166E5E;
+    align-content: center;
+    margin: 135px 60px 100px 460px;
+    position: fixed;   
+}
+
+/*HEADER & FIXED ELEMENTS*/
+
+/*--HEADER*/
+
+#header-title{
+    font-family:'Changa', sans-serif;
+    text-transform: uppercase;
+    font-size: 130px;
+    color: #E0440F;
+    display: inline-block;
+    letter-spacing: -1px;
+    /*position*/
+    position: absolute;
+    left: -110px;
+    top: -120px;
+    z-index: 10px;
+    /*typing*/
+    overflow: hidden; 
+    border-right: .15em solid orange;
+    white-space: nowrap; 
+    margin: 0 auto;
+    letter-spacing: .15em; 
+    animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+    /*typing effect*/
+@keyframes typing {
+  from { width: 0 }
+  to { width: 90% }
+}
+
+   /* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+/*--RECT. DECORATIONS*/
+
+#fixed-sun{
+    display: inline-block;
+    position: absolute;
+    left: 850px;
+    top: -120px;
+    width: 250px;
+    z-index: 10px;  
+}
+
+#fixed-cloud{
+    display: inline-block;
+    position: absolute;
+    left: -150px;
+    top: 600px;
+    width: 200px;
+    z-index: 10px; 
+}
+
+#bysun-text{
+    display: inline-block;
+    position: absolute;
+    left: 900px;
+    top: 60px;
+    width: 250px;
+    z-index: 10px; 
+    /*text*/
+    font-family:'Changa', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    letter-spacing: 50px;
+}
+
+#bycloud-text{
+    display: inline-block;
+    position: absolute;
+    left: -150px;
+    top: 550px;
+    width: 200px;
+    z-index: 10px;
+    /*text*/
+    font-family:'Changa', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    letter-spacing: 50px;
+}
+
+#bynav-text{
+    display: inline-block;
+    position: absolute;
+    left: 450px;
+    top: 680px;
+    width: 200px;
+    z-index: 10px;
+    /*text*/
+    font-family:'Changa', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    color: white;
+    display: inline-block;
+    letter-spacing: 50px;
+}
+
+#file-bird{
+    display: inline-block;
+    position: absolute;
+    left: 950px;
+    top: 90px;
+    width: 150px;
+    z-index: 10px;
+}
+
+#file-bird02{
+    display: inline-block;
+    position: absolute;
+    left: -240px;
+    top: 580px;
+    width: 150px;
+    z-index: 10px;
+}
+
+#file-bird-E{
+    display: inline-block;
+    position: absolute;
+    left: 960px;
+    top: 55px;
+    width: 150px;
+    z-index: 10px;
+}
+
+#file-bird-linkpg{
+    display: inline-block;
+    position: absolute;
+    left: 950px;
+    top: 60px;
+    width: 150px;
+    z-index: 10px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#file-bird-E:hover{
+    animation: bounce 1s;
+}
+
+/*NAVIGATION*/
+
+a{
+    font-family:'Changa', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a:hover{
+    background-color:#6477F4;
+    color: white;
+}
+
+.nav-column{
+    float: right;
+    width: 200px;
+    margin: 10px;
+    margin-left:1030px;
+    margin-top: 650px;
+    overflow: hidden; 
+
+}
+
+/*MAIN CONTENT*/
+
+.main-content{
+    float: left;
+    width: 970px;
+    margin-right: 20px;
+    /*box*/
+    height: 700px;
+    padding: 20px;
+    background-color: #EAB401;
+    border: 7px  white;
+    border-color: #233282;
+    position: fixed;
+    /*scroll*/
+    overflow: auto;  
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+/*--TEXT*/
+
+p{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #233282;
+    font-size: 17px;
+    line-height: 1.5;
+    margin-left: 40px;
+    margin-top: 44px;
+}
+
+    /*link pg text*/
+
+p#ig-text{
+   text-align: center;
+   margin-top: 0px;
+   margin-bottom: 0px;
+}
+
+a#ig-link{
+   font-family: 'Nanum Gothic', sans-serif;
+   color: #233282;
+   font-size: 20px;
+   padding: 5px;
+}
+
+a#ig-link:hover{
+    background-color: white;
+}
+
+/*--IMAGES*/
+
+    /*landing pg images*/
+
+.p1-imgs{
+    float: left;
+}
+
+#p1-img{
+    height: 300px;
+    margin: 25px 10px 10px 10px;
+}
+
+#p1-img2{
+    width:400px;
+    margin: 0px 10px 20px 10px;
+}
+
+    /*imgs*/
+
+img{
+    padding: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+.otherpg-imgs{
+    padding: 10px;
+    align-content: center;
+    display: inline-block;   
+}
+
+#linkpg-img{
+    height: 550px;
+    margin-left: 170px;
+    margin-top: 45px;
+}

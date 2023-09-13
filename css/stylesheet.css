@@ -10,7 +10,7 @@ body {
 }
 
 header {
-    max-width: 950px;
+    max-width: 1200px;
     padding: 5px; 
     border: 1px darkblue solid;
     margin-top: 50px; 
@@ -30,7 +30,7 @@ header h3 {
 
 main {
     border: 1px darkblue solid;
-    width: 950px;
+    width: 1200px;
     padding: 5px;  
     margin: auto; 
     display: flex; 
@@ -47,8 +47,8 @@ a {
 }
 
 section {
-    padding-left: 100px; 
-    padding-right: 100px; 
+    padding-left: 150px; 
+    padding-right: 150px; 
     margin: 10px; 
     border: 1px darkblue dashed;
 }
