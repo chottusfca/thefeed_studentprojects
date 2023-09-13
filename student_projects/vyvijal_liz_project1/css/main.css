@@ -1,0 +1,43 @@
+@import url("https://use.typekit.net/bdz2ixf.css");
+
+
+body{
+    background-color: #000000;
+    color: #a9ff81;
+    text-align: left;
+    font-family: lores-12, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+
+
+header{
+    color:#a9ff81;
+    text-align: center;
+}
+
+h1{
+    font-family: lores-12, sans-serif;font-weight: 700;
+    font-style: normal;
+    box-align: center;
+}
+a{
+    color:#a9ff81; 
+    padding:20px;
+}
+nav{
+    text-align: center;
+}
+
+img{
+    padding:40px;
+    display: block;
+    margin: auto;
+}
+main{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

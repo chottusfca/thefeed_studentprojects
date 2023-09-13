@@ -1,0 +1,19 @@
+body{
+    background-color: #FAC7AC;
+    color: purple;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    color: #800000;
+}
+
+a{
+    color: #800000;
+    text-decoration: none;
+    padding: 20px;
+}
+
+img{
+    padding:40px;

@@ -1,0 +1,66 @@
+
+h1{
+    color: #55BC63;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: #218843;
+    align-content: center;
+
+}
+
+a {
+    font-size: 33px;
+    text-decoration: underline;
+    padding: 50px;
+    color: #55BC63;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav {
+   text-align: center; 
+   text-decoration: none;
+   
+}
+
+
+p {
+    color: #55BC63;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+article {
+    float: center;
+    padding: 50px;
+}
+
+aside {
+    float: left;
+    padding: 30px;
+    width: 500px;
+    
+}
+
+section {
+    float: inline-start;
+    padding: 70px;
+    color: #55BC63;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-right: 40px;
+}
+
+iframe{
+    padding: 38px;
+    
+    
+}
+

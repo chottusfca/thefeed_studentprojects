@@ -1,0 +1,179 @@
+body{ 
+    background-image: url(../img/background-2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+h1{
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 150Px;
+    position: absolute;
+    }
+
+a{ 
+    color: black;
+    text-decoration:none;
+    padding: 20px;
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 32px;
+}
+nav{
+
+    text-align: center;
+}
+
+#title-page-png{ 
+    position: absolute;
+    width: 95%;
+    z-index: 20;
+    left: 60px;
+}
+
+h2{
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    text-decoration: underline;
+    font-style: normal;
+    text-align: center;
+    font-size: 72px;
+    padding: 20px;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+body.secondpage{ 
+    background-image:url(../img/background-for-art-01.png);
+    background-size: 100%;
+    margin-bottom: 30%;
+    background-repeat: repeat-y;
+    
+}
+
+ul{
+    
+    float: right;
+    min-width: 500px;
+    padding: 0px;
+    margin: 0px;
+    top: 10px;
+}
+h1.page-three{
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+    font-size: 72px;
+    padding: 20px;
+    position: unset;
+    text-decoration: underline;
+}
+
+
+#profile-pic{
+    width: 30%;
+    height: auto;
+    padding: 0px;
+    float: left; 
+    position: abosoulte;
+}
+
+img.pink-pic{
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    left: 25%;
+    right: 80%;
+    padding: 0px;
+
+}
+div{
+    color: black;
+    text-align: justify;
+    font-size: 50px;
+    block-size: 30px;
+    padding: 230px;
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+div.about-art{
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+    block-size: 30px;
+    padding: 500px;
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    z-index: 5;
+    top: 40%;
+}
+
+/* PAGE THREE */ 
+/* This class is for your whole sectin on this page and makes the layout a vertical column flex box at 85% width and centered in the middle */
+.internet_activity{
+    width: 85%; 
+    margin: auto; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; 
+}
+/* This rule targets the p tags within the internet_activity section */
+.internet_activity p{
+    color: black;
+    text-align: justify;
+    font-size: 30px;
+    font-family: moret, serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+/* This rule aplies to each image section on the page and aligns the images in a row */
+.internet_images {
+    width: 50%; 
+    padding: 3%; 
+    height: auto;
+    margin: auto; 
+    margin-top: 0;
+    display: flex; 
+    flex-direction: row;
+    justify-content: 
+    space-between;
+
+}
+
+/* This rule targets the img tags within the internet_images section */
+.internet_images img{
+    width: 50%; 
+    height: 100%auto; 
+    padding: 2%;
+    left: 13%;
+    right: 102%;
+    }
+
+#bio-home{
+    margin-top: 0px;
+    position:absolute;
+    z-index: 5;
+    top: 40%;
+    left:5%;
+
+}
+#about-art-bio{
+    position: absolute;
+    text-align: left;
+    color: white;
+    left: 10px;
+}

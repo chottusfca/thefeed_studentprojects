@@ -1,0 +1,74 @@
+
+body {
+    background-image: url('../img/codehacker.jpg');
+    text-align: center;
+    background-color:#001b05;
+    font-family: monospace;
+}
+
+p {
+    font-size: 30px;
+    color: rgb(238, 241, 219);
+    text-transform: lowercase;
+    font-weight: bold;
+    padding: 3%;
+    margin: 0%;
+}
+h1 {
+    color:#DEDB6C;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0%;
+}
+a{
+    text-decoration:none;
+    color: #DEDB6C;
+    font-size: 55px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+a:hover{
+    color: lavender;
+    text-decoration: none;
+}
+img{
+    margin-bottom: 0%;
+    margin-top: 0%;
+    padding: 3%;
+    padding-bottom: 5%;
+}
+
+.ryden a{
+font-size: 20pt;
+}
+
+.clickphoto:hover{
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
+
+
+/* 1. Change the background-color for the body to #FAC7AC*/
+
+/* 2. Change the text color for the body to a shade of violet.*/
+
+/* 3. Change all of the text to center align*/
+
+/* 4. Change the text color for the header to a shade of red.*/
+
+/* 4. Change the font to a serif font of your choice*/
+
+/* 5. Change the color of the anchor tags to the same shade of read as the header.*/
+
+/* 6. Get rid of underline on the the anchor tags */
+
+/* 7. Add padding of 20px to all sides of the anchor tags*/
+
+/* 8. Add padding of 40px to all sides of the img tags*/

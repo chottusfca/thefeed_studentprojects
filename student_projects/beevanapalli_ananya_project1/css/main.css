@@ -1,0 +1,127 @@
+body{
+    background-color:rgb(199, 243, 230);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../img/viscom2_project1_homebackground.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #4E1025;
+}
+
+h1{
+    text-align: center;
+    color: #faeeec;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+}
+
+section p{
+    width: 50%;
+    padding: 3%;
+}
+
+aside{
+    width: 33%;
+    padding-top: 60px;
+    padding-left: 200px;
+}
+
+aside p{
+    width:fit-content;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #4E1025;
+    font-weight: bolder;
+}
+
+nav a:link{
+    text-decoration: none;
+    color: #4E1025;
+}
+
+nav a:hover{
+    text-decoration: none;
+    color: #F4DFDB;
+}
+
+nav a:visited{
+    text-decoration: none;
+    color: #16576b;
+}
+
+nav a:active{
+    text-decoration: none;
+    color: #F4DFDB;
+}
+
+.deck {
+    border: 7px solid #4E1025;
+    background-color:  #F4DFDB;
+    }
+
+.deck:hover {
+    border-color: #F4DFDB;
+    }
+
+.navigation:link{
+    font-size: 16px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.lwp{
+    padding-top: 40px;
+}
+
+#imgspace{
+    padding-right: 0px;
+}
+
+#enter{
+    font-size: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 70px;
+    font-weight: bolder;
+    color: #4E1025;
+}
+
+#gif{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome{
+    font-size: 120px;
+    color: #faeeec;
+}
+
+#instructions{
+    text-align: center;
+}
+
+#me{
+    text-align: center;
+}
+
+#id{
+    padding: 0px;
+}

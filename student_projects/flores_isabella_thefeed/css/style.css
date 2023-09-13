@@ -1,0 +1,165 @@
+body {
+    background-color: #FFC8DD;
+    margin: 0;
+    color: #CE2D4F;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+    text-align: center;
+    position: absolute;
+    margin: 0%;
+    padding: 1%;
+    width: 100%;
+
+}
+ 
+
+nav {
+    background-color: #CDB4DB;
+    color: black;
+    text-align: left ;
+    position: fixed;
+    padding: 2%;
+    margin: 2%;
+    height: 63%;
+    top: 25%;
+    width: 7%;
+    border-radius: 50px;
+}
+
+a {
+
+    text-decoration: none;
+}
+
+
+main {
+    background-color: #FEFAE0;
+    padding: 4%;
+    margin: 9%;
+    border: 0%;
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 30px;
+
+}
+
+
+footer{
+    background-color:#CE2D4F;
+    padding: 10px;
+    position: absolute;
+    margin: 5px;
+    width: 10%;
+    font-size: 15pt;
+    border-radius: 70px;
+    text-align: center;
+    color: black;
+    right: 1%;
+    
+}
+
+header img {
+    width:200px;
+    position:fixed;
+    left: 1%;
+    top: 3%;
+    text-align: left;
+    background-color: #FEFAE0;
+    border: solid 10px #CE2D4F ;
+    border-radius: 50px;
+    padding: 2.5px;
+}
+section {
+
+    margin: 15%;
+    border: #CDB4DB 20px double;
+}
+#layout{ 
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+
+nav h2 {
+
+    font-size: 12pt;
+}
+
+nav h1{
+
+    font-size: 20pt;
+}
+
+nav h6 {
+
+    font-size: 8.5pt;
+    line-height: 1pt;
+}
+
+#home_bg {
+    background-color:#CE2D4F;
+
+}
+
+#homegif{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    width: 300px;
+}
+
+p {
+
+    background-color: #FFC8DD;
+    border-radius: 20px;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    right: 20%;
+}
+
+nav h6:hover {
+
+    color: honeydew;
+    width: 20%;
+
+}
+
+nav h3 {
+
+    margin-left: 20%;
+    line-height: 2px;
+    text-decoration: underline;
+    font-size: 12pt;
+}
+
+nav h4 {
+
+    font-size: 11pt;
+    line-height: 25px;
+    border: #FEFAE0 dotted 4px;
+    text-align: center;
+}
+
+a:visited {
+
+    color: darkmagenta;
+}
+
+a:link {
+
+color: hotpink;
+}
+
+#welcome {
+
+    top: 5%;
+    text-align: center;
+}
+

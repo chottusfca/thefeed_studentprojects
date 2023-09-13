@@ -1,0 +1,175 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+body{
+    font-family: 'Righteous';
+    color: black;
+    background-color: #D8C27A;
+    font-size:16pt;
+}
+
+.home{
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: fixed;
+}
+
+.click p{
+    color: #5B6CDE;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: -30px;
+}
+
+header{
+    font-size: 64pt;
+    color: black;
+    text-align: center;
+    padding-top: 0%;
+}
+
+nav{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 2%;
+}
+
+.links a{
+    font-size: 18pt;
+    color: #5B6CDE;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.links a:hover{
+    background-color: #5B6CDE;
+    color: #80D8D6;
+}
+
+.fade{
+    display: block;
+    margin: auto;
+    height:300px;
+    padding: 3%;
+}
+
+.about p{
+    width: 80%;
+    padding-top: 2%;
+    font-size: 16pt;
+    margin: auto;
+    text-align: center;
+}
+
+
+.data{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+
+.mostused{
+    margin:auto;
+    display: inline-block;
+    padding: 8px;
+}
+
+.stats{
+    display: flex;
+    width: 15%;
+    margin-left: auto;
+    padding: 3%
+}
+
+.profile{
+    width:30%;
+    margin: left 5%;
+    text-align: right;
+    float: left;
+}
+
+.instagram{
+    width:60%;
+    margin-right:5%;
+    text-align:right;
+    float: left;
+    padding-left: 5%;
+    padding-top:5%;
+    padding-bottom: 7%;
+}
+
+.dancevids p{
+    color: #5B6CDE;
+    font-size: 18pt;
+    display: block;
+    margin: auto;
+    text-align:center;
+    padding: 0%;
+}
+
+.dancevids video{
+    display: block;
+    margin: auto;
+    padding-top: none;
+    padding-bottom: 2%;
+}
+
+.dancevids ul{
+    list-style: none;
+    list-style-type: none;
+    width: auto;
+    height: 270px;
+    overflow: scroll;
+    float: center;
+    padding-top: 2%;
+}
+
+.dancevids li{
+    float:left;
+    padding: 2px;
+}
+
+.peak{
+    display: block;
+    margin: auto;
+}
+
+.interests {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 25px;
+}
+
+.youtube{
+    display: block;
+    list-style: none;
+    list-style-type: none;
+    overflow-x: scroll;
+    width: auto;
+    height: 480px;
+    margin: auto;
+    text-align: center;
+}
+
+.youtube li{
+    padding: 5px;
+    float: center;
+}
+
+.spotify{
+    padding-top: 30px;
+    display: block;
+    text-align: center;
+}
+
+.mostplayed{
+    color: #5B6CDE;
+    font-size: 18pt;
+    display: block;
+    margin: auto;
+    text-align:center;
+    padding: 3%;
+}

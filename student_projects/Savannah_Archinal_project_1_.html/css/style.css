@@ -1,0 +1,65 @@
+body{
+    background-color: #d16544;
+    color:#FFF7F3 ;
+    text-align: center;
+  }
+a{
+    color: #020100;
+    text-decoration:wavy;
+    font-family: roboto-mono, monospace;
+font-style: normal;
+font-weight: 200;
+font-size: 15px;
+word-spacing: 40px;
+text-align: center;
+padding: 12px;
+}
+h1{
+    color: #FFF7F3;
+    text-decoration: none;
+    font-family:roboto, monospace;
+    font-style: normal;
+    font-weight: 200;
+font-size: 30px;
+text-align: center;
+     }
+
+h4{
+  color: black;
+  font-family:roboto, monospace;
+    font-style: normal;
+    font-weight: 200;
+font-size: 30px;
+padding: 200px;
+  
+}
+footer{
+  font-family:monospace;
+font-weight: 300;
+text-align:unset;
+padding: 300px;
+}
+
+
+     img {  
+      max-width:75%;  
+      height: auto;  
+      }  
+
+details{
+  font-family: roboto, monospace;
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+  padding: 14px;
+}
+
+p{
+    border: double;
+  }
+
+
+
+
+  
+
