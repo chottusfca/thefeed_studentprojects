@@ -1,0 +1,75 @@
+body {
+  margin: 1;
+  background-color: indigo;
+  color: indigo;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: bolder;
+}
+
+header {
+  background-color:  rgb(225, 188, 225);
+  font-style: oblique;
+  padding: 30px;
+  text-align: center;
+}
+
+header img{ width: 25%}
+nav h1 {
+  color: indigorgb(225, 188, 225);
+  text-align: center;
+}
+
+nav {
+background-color: rgb(225, 188, 225);
+border: 4px rgb(161, 104, 221) double;
+  padding: 30px;
+  margin: 7px;
+  text-align: left;
+  width: 15%;
+
+}
+
+nav :hover {
+  background-color: deeppink;
+}
+
+main {
+  background-color: rgb(225, 188, 225);
+  border: 8px blue;
+  border: 4px rgb(161, 104, 221) solid;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  width: 80%;
+}
+
+footer h5 {
+  background-color: rgb(225, 188, 225);
+  border: 4px rgb(161, 104, 221) solid;
+  padding: 30px;
+  margin: auto;
+  text-align: center;
+  width: 80%;
+
+}
+#layout { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+#pink_bg {
+  background-color: indigo;
+}
+
+#homegif {
+  border: 3xpx transparent dotted;
+  position: absolute;
+  top: 15%;
+  left: 25%;
+}
+  
+#homegif:hover {
+  border: 3px hot pink dotted;
+} 

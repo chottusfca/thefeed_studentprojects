@@ -46,7 +46,11 @@ a {
     color: darkblue; 
 }
 
-a:hover {
+section h1 {
+    font-size: 24pt;
+}
+
+a h5:hover {
     background-color: yellow;
 }
 
