@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=VT323&display=swap');
 
 body {
-    margin: 0; 
+    margin: 5px; 
     margin: auto; 
-    max-width: 1200px;
     background-color: azure;
     font-family: 'VT323', monospace;
     color: darkblue; 
@@ -11,31 +10,49 @@ body {
 
 header {
     background-color: azure;
-    width: 1200px;
+    width: 100%;
     padding: 5px; 
     border: 1px darkblue solid;
-    margin-top: 50px; 
-    margin: auto;
     display: flex; 
     flex-direction: row;
     justify-content: space-between;
     position: fixed;
+    top: 0; 
+
 }
 
 header h1 {
-    font-size: 30pt;
+    font-size: 40pt;
+    line-height: 0;
 }
 
 header h3 {
     font-size: 24pt;
+    line-height: 1;
+}
+
+header img {
+    width: 200px; 
+    height: 160px; 
+    align-self: center;
+}
+
+h4 {
+    font-family: 'Inclusive Sans', sans-serif;
+    line-height: 1;
+}
+
+h5 {
+    font-size: 16pt;
 }
 
 main {
     border: 1px darkblue solid;
-    width: 1200px;
+    width: 95%;
     padding: 5px;  
     margin: auto; 
-    margin-top: 200px;
+    margin-top: 225px;
+    margin-bottom: 200px;
     display: flex; 
     flex-direction: row; 
     flex-wrap: wrap;
@@ -50,8 +67,9 @@ a {
 }
 
 section {
-    padding-left: 50px; 
-    padding-right: 225px; 
+    width: 25%; 
+    padding-left: 5%; 
+    padding-right: 10%; 
     margin: 10px; 
     border: 1px rgba(0, 0, 139, 0.617) dashed;
 }
