@@ -111,6 +111,8 @@ a h5:hover {
     justify-content: space-between;
 }
 
-@media screen {
-    
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 85%;
+    }
 }
